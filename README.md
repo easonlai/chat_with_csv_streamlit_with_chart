@@ -2,6 +2,8 @@
 
 In this repository, you will find an example code for creating an interactive chat experience that allows you to ask questions about your CSV data. The code uses [Pandas Dataframe Agent](https://python.langchain.com/docs/integrations/toolkits/pandas) from [LangChain](https://python.langchain.com/docs/get_started/introduction) and a [GPT model](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) from [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) to interact with the data. To make the chat more versatile, I incorporated some prompt engineering techniques that instruct the GPT model to use the popular data visualization library, [Matplotlib](https://matplotlib.org/stable/index.html), to create charts based on your queries. The chart is then saved and visualized using the [Streamlit](https://streamlit.io/) frontend interface. This feature can create any [type of chart](https://matplotlib.org/stable/plot_types/index.html) (pie, line, scatter, etc.) as long as you provide clear instructions. Additionally, the code can also return the dataframe as a table or provide a straightforward answer.
 
+The data for analysis is sourced from [Kaggle's Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) dataset, providing a comprehensive view of customer information to develop effective retention programs.
+
 **To run this Streamlit web app**
 ```
 streamlit run run.py
