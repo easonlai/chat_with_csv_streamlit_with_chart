@@ -7,5 +7,12 @@ To run this Streamlit web app
 streamlit run run.py
 ```
 
+![alt text](https://github.com/easonlai/chat_with_csv_streamlit_with_chart/blob/main/git-images/git-image-1.png)
+
+![alt text](https://github.com/easonlai/chat_with_csv_streamlit_with_chart/blob/main/git-images/git-image-2.png)
+
+![alt text](https://github.com/easonlai/chat_with_csv_streamlit_with_chart/blob/main/git-images/git-image-3.png)
+
+![alt text](https://github.com/easonlai/chat_with_csv_streamlit_with_chart/blob/main/git-images/git-image-4.png)
 
 Enjoy!
